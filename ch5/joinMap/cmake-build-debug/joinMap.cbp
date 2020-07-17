@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="joinMap"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\pcl-1.9\;CMake Files\..\..\..\..\..\..\usr\share\pcl-1.9\Modules\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\;CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joinMap">
+				<Option output="/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/joinMap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/vtk-5.10"/>
+					<Add directory="/usr/include/pcl-1.9"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 joinMap"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joinMap/fast">
+				<Option output="/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/joinMap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DDISABLE_LIBUSB_1_0"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/vtk-5.10"/>
+					<Add directory="/usr/include/pcl-1.9"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 joinMap/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/flk/yuanma/slambook-master/ch5/joinMap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/joinMap.cpp">
+			<Option target="joinMap"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/share/pcl-1.9/PCLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\pcl-1.9\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/share/pcl-1.9/PCLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\pcl-1.9\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/share/pcl-1.9/Modules/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\pcl-1.9\Modules\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/share/pcl-1.9/Modules/FindOpenNI.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\pcl-1.9\Modules\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/lib/vtk-5.10/UseVTK.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/lib/vtk-5.10/VTKConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/lib/vtk-5.10/VTKConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/lib/vtk-5.10/VTKTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/lib/vtk-5.10/VTKTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\"/>
+		</Unit>
+		<Unit filename="/home/flk/yuanma/slambook-master/ch5/joinMap/../../../../../../usr/lib/vtk-5.10/CMake/vtkMakeInstantiator.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\vtk-5.10\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
